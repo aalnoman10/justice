@@ -1,4 +1,8 @@
 /* lsr - my custom css  */
+h1 {
+    font-family: 'EB Garamond', serif;
+}
+
 
 .lsr-color {
     color: darkgoldenrod;
@@ -10,4 +14,8 @@
 
 .lsr-btn-hover-none:hover {
     background-color: rgb(152, 111, 9);
+}
+
+.lsr-h-500 {
+    height: 500px;
 }
