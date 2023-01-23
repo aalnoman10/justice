@@ -1,0 +1,13 @@
+/* lsr - my custom css  */
+
+.lsr-color {
+    color: darkgoldenrod;
+}
+
+.lsr-bg-color {
+    background-color: darkgoldenrod;
+}
+
+.lsr-btn-hover-none:hover {
+    background-color: rgb(152, 111, 9);
+}
