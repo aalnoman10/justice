@@ -25,5 +25,10 @@ h1 {
 }
 
 .lsr-gradient-2 {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.596),rgb(0, 0, 0));
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.596), rgb(0, 0, 0));
 }
+
+/* 
+.lsr-list-inset {
+    list-style-position: inside;
+} */
