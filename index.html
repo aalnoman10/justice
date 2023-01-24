@@ -58,7 +58,7 @@
             <!-- banner -->
             <div class="d-md-flex justify-content-center align-items-center p-3 p-md-5 rounded-2 lsr-h-500 my-5"
                 style="background-image: linear-gradient(0deg , #111111 ,#00000000), url(./images/banner.png); background-size: 100% 100%;">
-                <div class="text-center text-white w-md-50">
+                <div class="text-center text-white w-50 w-md-50 lsr-banner-info-width">
                     <h1 class="fw-bold">We Provide Effective <br> Legal Solutions</h1>
                     <p class="my-4">There are many variations of passages of Lorem Ipsum available, but the majority
                         have suffered
@@ -259,7 +259,7 @@
                 </div>
             </section>
             <!-- Questions -->
-            <section class="my-5 py-5">
+            <section id="questions" class="my-5 py-5">
                 <h2 class="fw-bold text-center">Frequently Asked Any Questions</h2>
                 <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority
                     have <br> suffered
@@ -270,18 +270,17 @@
                             <!-- item-1 -->
                             <div class="accordion-item bg-body-secondary my-4 rounded">
                                 <h2 class="accordion-header" id="headingOne">
-                                    <button
-                                        class="accordion-button text-black bg-body-secondary fw-semiblod fs-5 rounded"
+                                    <button class="accordion-button text-black bg-body-secondary fw-blod fs-5 rounded lsr-plus-mines"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                         aria-expanded="true" aria-controls="collapseOne">
-                                        1. Are application fee waivers available?
+                                        1. What is difference between Flex and Grid?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the
-                                            majority have suffered alteration in some form, by injected humour, . </p>
+                                        <p>Flex is one dimension layout design, either a row or a column.And Grid is two
+                                            dimension layout design, rows and columns at the both time</p>
                                     </div>
                                 </div>
                             </div>
@@ -292,14 +291,15 @@
                                         class="accordion-button collapsed text-black bg-body-secondary fw-semiblod fs-5 rounded"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                         aria-expanded="false" aria-controls="collapseTwo">
-                                        2. Are application fee waivers available?
+                                        2. What is the purpose of media queries?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse rounded"
                                     aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the
-                                            majority have suffered alteration in some form, by injected humour, . </p>
+                                        <p>Media queries can modify the appearance (and even behavior) or a website or
+                                            app based on a matched set of conditions about the user’s device, browser or
+                                            system settings.</p>
                                     </div>
                                 </div>
                             </div>
@@ -310,14 +310,16 @@
                                         class="accordion-button collapsed text-black bg-body-secondary fw-semiblod fs-5 rounded"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                         aria-expanded="true" aria-controls="collapseThree">
-                                        3. Are application fee waivers available?
+                                        3. What is CSS box model?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the
-                                            majority have suffered alteration in some form, by injected humour, . </p>
+                                        <p>A rectangle box is wrapped around every HTML element. The box model is used
+                                            to determine the height and width of the rectangular box. The CSS Box
+                                            consists of Width and height (or in the absence of that, default values and
+                                            the content inside), padding, borders, margin.</p>
                                     </div>
                                 </div>
                             </div>
@@ -328,14 +330,17 @@
                                         class="accordion-button collapsed text-black bg-body-secondary fw-semiblod fs-5 rounded"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                         aria-expanded="false" aria-controls="collapseFour">
-                                        4. Are application fee waivers available?
+                                        4. What is semantic tag?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the
-                                            majority have suffered alteration in some form, by injected humour, . </p>
+                                        <p>HTML Semantic tags introduce meaning to the web page rather than just
+                                            presentation. A semantic tag clearly describes its meaning to both the
+                                            browser and the developer. Semantic tags have many advantages over
+                                            non-semantic tags like semantic tags are of great help to screen readers,
+                                            and they also help in code optimization.</p>
                                     </div>
                                 </div>
                             </div>
@@ -393,6 +398,7 @@
             </div>
         </footer>
     </div>
+    <!-- bootstrap js cdn  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
