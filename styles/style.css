@@ -1,8 +1,12 @@
 /* lsr - my custom css  */
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'EB Garamond', serif;
 }
-
 
 .lsr-color {
     color: darkgoldenrod;
@@ -27,8 +31,8 @@ h1 {
 .lsr-gradient-2 {
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.596), rgb(0, 0, 0));
 }
-
-/* 
-.lsr-list-inset {
-    list-style-position: inside;
-} */
+@media screen and (max-width: 767.98px) {
+    .lsr-h-500{
+        height: unset;
+    }
+}
